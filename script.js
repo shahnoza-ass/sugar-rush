@@ -1,3 +1,4 @@
+console.log("Welcome to My Git Project!");
 const boardSize = 8;
 const colors = ['candy-1', 'candy-2', 'candy-3', 'candy-4', 'candy-5'];
 const gameBoard = document.getElementById('game-board');
