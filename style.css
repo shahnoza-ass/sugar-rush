@@ -12,11 +12,11 @@ h1 {
 }
 
 #game-board {
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(8, 50px);
     grid-template-rows: repeat(8, 50px);
     gap: 5px;
-    margin: 20px auto;
+    margin:20px auto;
     width: 430px;
     border: 2px solid #ccc;
     background-color: white;
@@ -29,11 +29,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size:18px;
     font-weight: bold;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius:5px;
 }
 
 .cell.candy-1 {
