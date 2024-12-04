@@ -16,7 +16,6 @@ function createBoard() {
     }
 }
 
-// Candy-larni almashtirish
 let selectedCandy = null;
 gameBoard.addEventListener('dragstart', (e) => {
     selectedCandy = e.target;
